@@ -31,6 +31,11 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     },
+  })
+  .then((response) => response.json())
+  .then((data) => data)
+  .catch((error) => {
+    console.error('Error:', error);
   });
 
 const saveNote = (note) =>
@@ -68,8 +73,8 @@ const renderActiveNote = () => {
 
 const handleNoteSave = () => {
   const newNote = {
-    title: noteTitle.value,
-    text: noteText.value,
+    title: noteTitle.value.trim(),
+    text: noteText.value.trim(),
   };
   saveNote(newNote).then(() => {
     getAndRenderNotes();
