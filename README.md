@@ -6,7 +6,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Tests](#tests)
   - [ScreenShot](#screenShot)
   - [Links](#links)
   - [Questions](#questions)
@@ -17,15 +16,13 @@
  npm i
  ```
   ## Usage
-The User needs to clone first the repo then install dependencies and run the file server.js
+The User needs to clone first the repo then install dependencies and run the file server.js with the following command :
+``` 
+ npm start
+ ```
 
   ## License
 This Project is licensed under **ISC** license.
-  ## Tests
-  to run test , run this following command :
-``` 
- no test required
- ```
  ## ScreenShot 
 
 Home page :
