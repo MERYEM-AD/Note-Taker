@@ -24,7 +24,7 @@ app.get('/notes', (req, res) =>
 );
 
 
-// GET Route for to home page if the path is wrong
+// GET Route to the home page if the path is wrong
 app.get('*', (req, res) =>{
 if (res.status(404)){return res.sendFile(path.join(__dirname, '/public/index.html'));
 }
