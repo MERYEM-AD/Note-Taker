@@ -17,10 +17,10 @@
  npm i
  ```
   ## Usage
-The User need to clone first the repo then install dependencies and run the file server.js
+The User needs to clone first the repo then install dependencies and run the file server.js
 
   ## License
-  this Project is licensed under **ISC** license.
+This Project is licensed under **ISC** license.
   ## Tests
   to run test , run this following command :
 ``` 
@@ -28,17 +28,19 @@ The User need to clone first the repo then install dependencies and run the file
  ```
  ## ScreenShot 
 
-  ![home](./Develop/src/home.png)
-  ![getNotes](./Develop/src/getnotes.png) 
-  ![postNote](./Develop/src/postNote.png)
-  ![get_postedNote](./Develop/src/get_postedNote.png)
-  ![get_Notes](./Develop/src/get_Notes.png)
+Home page :
+  ![home](./screenshot/home.png) 
+Write/post a note :
+  ![postNote](./screenshot/postNote.png)
+Display the posted note :
+  ![get_postedNote](./screenshot/get_postedNote.png)
+Delete note 1:
+  ![get_Notes](./screenshot/get_Notes.png)
   ## Links 
   The URL of the GitHub repository: https://github.com/MERYEM-AD/Note-Taker
-  The URL of the functional, deployed application on Heroku:
-  ## Questions
-  Watch [the walkthrough video]() that demonstrates the functionality of the application.
 
+  The URL of the functional, deployed application on Heroku: https://notetaker200.herokuapp.com/
+  ## Questions
   iF you have any questions about the repo you can contact me by email : adiri.meryem.mw@gmail.com.
 
   Follow me on [my Github account](https://github.com/MERYEM-AD).
